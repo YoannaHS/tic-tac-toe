@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+
+.tictactoe {
+  height: 300px;
+  width: 300px;
+  background-color: #A3E3BF;
+  font-size: 26px;
+  font-family: 'Anton', sans-serif;
+  color: #270B3F;
+}
+
+.tictactoe .row {
+  height: 100px;
+}
+
+.tictactoe .row:not(:last-child) {
+  border-bottom: 1px solid black;
+}
+
+.tictactoe .row .celdas {
+  height: 100px;
+  width: 100px;
+  float: left;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.tictactoe .row .celdas:not(:last-child) {
+  border-right: 1px solid black;
+}
+
+#button {
+  cursor: pointer;
+  padding: 8px;
+  margin-top: 15px;
+  background: #489FC2;
+  color: #FFF;
+  border-bottom: 4px;
+}
+
+/**{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline rgb(224, 37, 71);
+    font-size: 30px;
+    color: rgb(224, 37, 71);
+    font-weight: bolder;
+}
+
+.board{
+    margin: 100px auto 0;
+    border-collapse: collapse;
+}
+.board td{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.board td:hover{
+    background: #e2df15;
+}
+
+tbody {
+   border: none;
+}
+
+table {
+    border: none;
+
+}*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline rgb(224, 37, 71);
+    font-size: 30px;
+    color: rgb(224, 37, 71);
+    font-weight: bolder;
+}
+
+.board{
+    margin: 100px auto 0;
+    border-collapse: collapse;
+}
+.board td{
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.board td:hover{
+    background: #e2df15;
+}
+
+tbody {
+   border: none;
+}
+
+table {
+    border: none;
+
+}*/
